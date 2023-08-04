@@ -14,6 +14,3 @@ Plotting Accuracy and Loss: During training, accuracy and loss plots are display
 
 Real-time Emotion Detection: The trained model is deployed to perform real-time emotion detection using the camera feed. The Haar Cascade classifier is used to detect faces in the video stream, and the emotion labels are displayed on the detected faces. The program runs in a loop until the user stops the execution.
 
-To run the emotion detection system on your system, download the project folder, execute the main.py program, and a window will pop up showing your camera feed with labeled emotions. The program can be terminated by stopping the execution of the main.py script.
-
-Conclusion: The project provides a comprehensive and practical implementation of real-time emotion detection using deep learning techniques and demonstrates its potential applications in various domains.
