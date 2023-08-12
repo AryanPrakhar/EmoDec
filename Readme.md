@@ -1,16 +1,7 @@
-Summary of the Emotion Detection System Project:
-
 This project aims to build a real-time emotion detection system using deep learning techniques, specifically Convolutional Neural Networks (CNNs), to recognize facial emotions from images. The system utilizes popular Python libraries, including matplotlib, numpy, pandas, and Keras, for data manipulation, visualization, and model creation.
 
-Dataset: The dataset used for training consists of grayscale images of faces with 48x48 pixels, labeled with seven emotion categories: Angry, Disgust, Fear, Happy, Sad, Surprise, and Neutral.
+![image](https://github.com/AryanPrakhar/EmoDec/assets/34882308/751a5e0f-3483-4b1b-bab5-38ed58064c6c)
 
-Data Preprocessing: The dataset is prepared for training and validation using the `ImageDataGenerator` from Keras. Images are resized to a target size of 48x48 pixels, converted to grayscale, and one-hot encoded for emotion labels. Data augmentation is applied to increase data diversity, and separate generators are used for training and validation sets.
 
-Model Architecture: The emotion detection model consists of several convolutional layers, followed by fully connected layers. The model is designed to learn intricate patterns and features from facial expressions to predict the emotions accurately.
-
-Model Training: The model is compiled with the Adam optimizer and categorical cross-entropy loss function. Three callback functions (ModelCheckpoint, EarlyStopping, and ReduceLROnPlateau) are used to improve training performance and prevent overfitting. The model is trained using the fit_generator function for 48 epochs.
-
-Plotting Accuracy and Loss: During training, accuracy and loss plots are displayed using matplotlib, showing the model's performance and learning progress.
-
-Real-time Emotion Detection: The trained model is deployed to perform real-time emotion detection using the camera feed. The Haar Cascade classifier is used to detect faces in the video stream, and the emotion labels are displayed on the detected faces. The program runs in a loop until the user stops the execution.
+The trained model is deployed to perform real-time emotion detection using the camera feed. The Haar Cascade classifier is used to detect faces in the video stream, and the emotion labels are displayed on the detected faces. The program runs in a loop until the user stops the execution.
 
